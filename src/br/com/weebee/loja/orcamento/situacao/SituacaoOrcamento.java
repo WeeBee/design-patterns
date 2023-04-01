@@ -12,14 +12,14 @@ public abstract class SituacaoOrcamento {
 	}
 	
 	public void aprovar(Orcamento orcamento) {
-		throw new DomainException("OrÁamento n„o pode ser aprovado!");
+		throw new DomainException("Or√ßamento n√£o pode ser aprovado!");
 	}
 	
 	public void reprovar(Orcamento orcamento) {
-		throw new DomainException("OrÁamento n„o pode ser reprovado!");
+		throw new DomainException("Or√ßamento n√£o pode ser reprovado!");
 	}
 	
 	public void finalizar(Orcamento orcamento) {
-		throw new DomainException("OrÁamento n„o pode ser finalizado!");
+		throw new DomainException("Or√ßamento n√£o pode ser finalizado!");
 	}
 }

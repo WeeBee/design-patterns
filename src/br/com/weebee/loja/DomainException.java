@@ -1,6 +1,6 @@
 package br.com.weebee.loja;
 
-public abstract class DomainException extends RuntimeException {
+public class DomainException extends RuntimeException {
 
 	private static final long serialVersionUID = 1L;
 
