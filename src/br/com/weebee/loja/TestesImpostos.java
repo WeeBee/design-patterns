@@ -14,8 +14,8 @@ public class TestesImpostos {
 	public static void main(String[] args) {
 		Orcamento orcamento = new Orcamento(valor1, 1);
 		CalculadoraDeImpostos calculadora = new CalculadoraDeImpostos();
-		System.out.println("ISS cobrado em cima de valor R$ " + valor1 + " = " + calculadora.calcular(orcamento, new ISS()));
-		System.out.println("ICMS cobrado em cima de valor R$ " + valor1 + " = " + calculadora.calcular(orcamento, new ICMS()));
+		System.out.println("ISS cobrado em cima de valor R$ " + valor1 + " = " + calculadora.calcular(orcamento, new ISS(null)));
+		System.out.println("ICMS cobrado em cima de valor R$ " + valor1 + " = " + calculadora.calcular(orcamento, new ICMS(null)));
 
 	}
 

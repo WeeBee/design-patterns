@@ -3,6 +3,7 @@ package br.com.weebee.loja.orcamento;
 import java.math.BigDecimal;
 
 import br.com.weebee.loja.orcamento.situacao.EmAnalise;
+import br.com.weebee.loja.orcamento.situacao.Finalizado;
 import br.com.weebee.loja.orcamento.situacao.SituacaoOrcamento;
 
 public class Orcamento {
@@ -50,6 +51,11 @@ public class Orcamento {
 	
 	public void setSituacao(SituacaoOrcamento situacao) {
 		this.situacao = situacao;
+	}
+
+
+	public boolean isFinalizado() {
+		return situacao instanceof Finalizado;
 	}
 
 }
