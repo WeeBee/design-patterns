@@ -12,4 +12,5 @@ Design Patterns (Gang of Four: Erich Gamma, Richard Helm, Ralph Johnson, John Vl
 * Adapter: https://refactoring.guru/design-patterns/adapter
 * Decorator: https://refactoring.guru/design-patterns/decorator
 * Composite: https://refactoring.guru/design-patterns/composite
+* Facade: https://refactoring.guru/design-patterns/facade
 

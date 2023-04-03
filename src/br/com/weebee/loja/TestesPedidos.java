@@ -6,6 +6,7 @@ import java.util.Arrays;
 import br.com.weebee.loja.pedido.GeraPedido;
 import br.com.weebee.loja.pedido.GeraPedidoHandler;
 import br.com.weebee.loja.pedido.acao.EnviarEmailPedido;
+import br.com.weebee.loja.pedido.acao.LogDePedido;
 import br.com.weebee.loja.pedido.acao.SalvarPedidoNoBancoDeDados;
 
 public class TestesPedidos {
@@ -17,8 +18,9 @@ public class TestesPedidos {
 		
 		GeraPedido gerador = new GeraPedido(cliente, valorOrcamento, quantidadeItens);
 		GeraPedidoHandler handler = new GeraPedidoHandler(
-				Arrays.asList(new SalvarPedidoNoBancoDeDados(), new EnviarEmailPedido())
-				);
+				Arrays.asList(new SalvarPedidoNoBancoDeDados(), new EnviarEmailPedido(),
+				new LogDePedido()
+				));
 		handler.execute(gerador);
 	}
 }
