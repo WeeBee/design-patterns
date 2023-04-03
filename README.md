@@ -9,6 +9,7 @@ Design Patterns (Gang of Four: Erich Gamma, Richard Helm, Ralph Johnson, John Vl
 * Observer: https://refactoring.guru/design-patterns/observer (aka "Listener") 
 
 |Structural|
-* Adapter: https://refactoring.guru/pt-br/design-patterns/adapter
-* Decorator: https://refactoring.guru/pt-br/design-patterns/decorator
+* Adapter: https://refactoring.guru/design-patterns/adapter
+* Decorator: https://refactoring.guru/design-patterns/decorator
+* Composite: https://refactoring.guru/design-patterns/composite
 
